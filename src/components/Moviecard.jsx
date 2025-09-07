@@ -24,10 +24,10 @@ const Moviecard = ({title, image, description, release_date, rating}) => {
           </div>
           <div class="mb-3 font-normal text-gray-700 dark:text-gray-400 flex flex-row gap-4 justify-between">
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              {release_date}
+             📅 {release_date}
             </p>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              {rating}
+             ⭐ {rating}
             </p>
           </div>
         </div>

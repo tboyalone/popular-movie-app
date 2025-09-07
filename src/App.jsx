@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center p-4 gap-8 justify-center align-center">
-      <h1 className="text-4xl font-bold">Movies App</h1>
+      <h1 className="text-4xl font-bold">🎥 Movies App</h1>
       <div className="flex flex-row items-center justify-center border-2 border-gray-200 rounded-2xl p-4">
         <Input
           onChange={(e) => {setQuery(e.target.value), 
